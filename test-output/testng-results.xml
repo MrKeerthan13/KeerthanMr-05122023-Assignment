@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T18:06:51 IST" name="MyTestSuite" finished-at="2023-12-05T18:07:15 IST" duration-ms="23755">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T18:06:51 IST" name="MyTest" finished-at="2023-12-05T18:07:15 IST" duration-ms="23755">
+      <class name="testcase.Login_demo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:06:51 IST" name="setup" finished-at="2023-12-05T18:06:57 IST" duration-ms="5710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demoLogin()[pri:1, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:06:57 IST" name="demoLogin" finished-at="2023-12-05T18:06:59 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:06:59 IST" name="teardown" finished-at="2023-12-05T18:07:00 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:07:00 IST" name="setup" finished-at="2023-12-05T18:07:03 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTheUserIsAbleToRegister()[pri:2, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:07:03 IST" name="verifyTheUserIsAbleToRegister" finished-at="2023-12-05T18:07:06 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.Login_demo@742ff096]" started-at="2023-12-05T18:07:06 IST" name="teardown" finished-at="2023-12-05T18:07:07 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.Login_demo -->
+      <class name="testcase.TabletsAddToCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TabletsAddToCart@75437611]" started-at="2023-12-05T18:07:07 IST" name="setup" finished-at="2023-12-05T18:07:11 IST" duration-ms="3687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tabletsToCart()[pri:0, instance:testcase.TabletsAddToCart@75437611]" started-at="2023-12-05T18:07:11 IST" name="tabletsToCart" finished-at="2023-12-05T18:07:14 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabletsToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TabletsAddToCart@75437611]" started-at="2023-12-05T18:07:14 IST" name="teardown" finished-at="2023-12-05T18:07:15 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TabletsAddToCart -->
+      <class name="ultilites.TestUtils">
+        <test-method is-config="true" signature="InitExentReport()[pri:0, instance:ultilites.TestUtils@663c9e7a]" started-at="2023-12-05T18:06:50 IST" name="InitExentReport" finished-at="2023-12-05T18:06:51 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitExentReport -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:ultilites.TestUtils@663c9e7a]" started-at="2023-12-05T18:07:15 IST" name="generateReports" finished-at="2023-12-05T18:07:18 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- ultilites.TestUtils -->
+    </test> <!-- MyTest -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

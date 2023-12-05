@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+<listeners>
+		<listener class-name="base.Listerner"/>
+	</listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="base.baseloaddoc" />
+            <class name="ultilites.TestUtils"/>
+            <class name="testcase.Login_demo" />
+            <class name="testcase.TabletsAddToCart"/>
+            
+        </classes>
+    </test>
+    
+</suite>
